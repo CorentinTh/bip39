@@ -1,6 +1,6 @@
 {
   "name": "@it-tools/bip39",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple and complete bip39 mnemonic (passphrase) and entropy generator in typescript.",
   "main": "umd/index.js",
   "module": "es/index.js",
