@@ -9,7 +9,6 @@
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/CorentinTh/bip39/Node%20CI)](https://github.com/CorentinTh/bip39/actions?query=workflow%3A%22Node+CI%22)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/bip39.svg)](https://www.npmjs.com/package/bip39)
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/CorentinTh/bip39.svg)](https://github.com/CorentinTh/bip39/blob/master/package.json)
-[![Dependencies](https://img.shields.io/badge/dependencies-0-green)](https://www.npmjs.com/package/bip39)
 [![Licence Badge](https://img.shields.io/github/license/CorentinTh/bip39.svg)](LICENCE)
 
 </div>
