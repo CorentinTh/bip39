@@ -20,10 +20,10 @@
     "url": "https://github.com/CorentinTh/bip39"
   },
   "keywords": [
-    "quadtree",
-    "qt",
-    "quadtree.js",
-    "quadtree javascript"
+    "bip39",
+    "mnemonic",
+    "passphrase",
+    "entropy"
   ],
   "funding": "https://github.com/sponsors/CorentinTh",
   "author": "Corentin Th <corentin.thomasset74+npm@gmail.com> (https://github.com/CorentinTh)",
