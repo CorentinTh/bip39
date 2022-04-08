@@ -9,6 +9,7 @@
     "build": "rollup -c",
     "lint": "eslint ./src/**",
     "test": "vitest",
+    "prepare": "npm run build",
     "coverage": "vitest run --coverage",
     "release": "standard-version"
   },
