@@ -13,6 +13,7 @@
     "release": "standard-version"
   },
   "files": [
+    "/es/",
     "/dist/"
   ],
   "repository": {
