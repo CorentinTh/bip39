@@ -15,6 +15,8 @@
 
 A simple and complete bip39 mnemonic (passphrase) and entropy generator in typescript.
 
+This package is similar to [bitcoinjs/bip39](https://github.com/bitcoinjs/bip39) but lighter, strongly typed and without the heavy dependency to `Buffer` in order to be easily used in the browser.
+
 ## Installation
 
 ### Node JS
