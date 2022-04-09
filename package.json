@@ -15,7 +15,7 @@
   },
   "files": [
     "/es/",
-    "/dist/"
+    "/umd/"
   ],
   "repository": {
     "type": "git",
