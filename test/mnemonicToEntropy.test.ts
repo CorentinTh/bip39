@@ -1,5 +1,5 @@
 import { expect, describe, it } from 'vitest';
-import { mnemonicToEntropy } from '../src/mnemonicToEntropy';
+import { mnemonicToEntropy } from '../src/mnemonic';
 
 describe('mnemonicToEntropy', () => {
   describe('when the checksum is valid', () => {

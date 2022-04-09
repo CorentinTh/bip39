@@ -14,7 +14,7 @@ export function mnemonicToEntropy(mnemonic: string, wordList: IWordList = defaul
   const newChecksum = getChecksumBin(entropyBytes);
 
   if (newChecksum !== checksumBits) {
-    throw new Error('Invalid checksum.');
+    throw new Error('[bip39] Invalid checksum.');
   }
 
   return Array.from(entropyBytes, (byte) => ('0' + (byte & 0xff).toString(16)).slice(-2)).join('');

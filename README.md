@@ -47,7 +47,7 @@ console.log(passphrase);
 
 ### Create mnemonic (passphrase) from entropy
 
-Default language is `english`.
+Default language is `english`. The entropy must an hexadecimal string with a length >= 16 or <= 32 and that is a multiple or 4.
 
 ```typescript
 import { entropyToMnemonic } from '@it-tools/bip39';
@@ -69,6 +69,27 @@ const entropy = mnemonicToEntropy('alert record income curve mercy tree heavy lo
 
 console.log(entropy);
 // 063679ca1b28b5cfda9c186b367e271e
+```
+
+### Generate an entropy
+
+```typescript
+import { generateEntropy } from '@it-tools/bip39';
+
+// Default is a 32 long entropy
+const entropy = generateEntropy();
+
+console.log(entropy);
+// 063679ca1b28b5cfda9c186b367e271e
+```
+
+```typescript
+import { generateEntropy } from '@it-tools/bip39';
+
+const entropy = generateEntropy(16);
+
+console.log(entropy);
+// b063679ca1b28b5c
 ```
 
 ### Other languages

@@ -1,5 +1,5 @@
 {
-  "include": ["./src/**/*"],
+  "include": ["./src/**/*", "src/shims.d.ts"],
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
