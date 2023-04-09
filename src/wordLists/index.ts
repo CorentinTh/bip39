@@ -7,6 +7,7 @@ export { list as chineseTraditionalWordList } from './chinese-traditional.wordli
 export { list as czechWordList } from './czech.wordlist';
 export { list as englishWordList } from './english.wordlist';
 export { list as frenchWordList } from './french.wordlist';
+export { list as germanWordList } from './german.wordlists';
 export { list as italianWordList } from './italian.wordlist';
 export { list as japaneseWordList } from './japanese.wordlist';
 export { list as koreanWordList } from './korean.wordlist';

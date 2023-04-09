@@ -117,6 +117,7 @@ Available languages are:
 - **czech**: `import { czechWordList } from '@it-tools/bip39';`
 - **english**: `import { englishWordList } from '@it-tools/bip39';`
 - **french**: `import { frenchWordList } from '@it-tools/bip39';`
+- **german**: `import { germanWordList } from '@it-tools/bip39';`
 - **italian**: `import { italianWordList } from '@it-tools/bip39';`
 - **japanese**: `import { japaneseWordList } from '@it-tools/bip39';`
 - **korean**: `import { koreanWordList } from '@it-tools/bip39';`
